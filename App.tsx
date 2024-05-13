@@ -1,7 +1,11 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 
+import Config from 'react-native-config';
+
 const App = () => {
+  console.log('env file test------>', Config.BASE_URL);
+
   return (
     <View style={styles.mainContainer}>
       <Text style={styles.centerText}>Hello World!!!</Text>
