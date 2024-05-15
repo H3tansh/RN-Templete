@@ -20,6 +20,7 @@ module.exports = {
     // Your additional rules
     'react/jsx-uses-react': 'error',
     'react/jsx-uses-vars': 'error',
+    "constructor-super": "off"
   },
   settings: {
     react: {
